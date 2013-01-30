@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3515350F16B624BE00CCE155 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3515350E16B624BE00CCE155 /* Cocoa.framework */; };
+		3515351916B624BE00CCE155 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3515351716B624BE00CCE155 /* InfoPlist.strings */; };
+		3515351B16B624BE00CCE155 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3515351A16B624BE00CCE155 /* main.m */; };
+		3515351F16B624BE00CCE155 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3515351D16B624BE00CCE155 /* Credits.rtf */; };
+		3515352216B624BE00CCE155 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3515352116B624BE00CCE155 /* AppDelegate.m */; };
+		3515352516B624BE00CCE155 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3515352316B624BE00CCE155 /* MainMenu.xib */; };
+		3515352C16B626AC00CCE155 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3515352B16B626AC00CCE155 /* WebKit.framework */; };
+		3592A12A16B6DE1500A515D0 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3592A12916B6DE1500A515D0 /* WebViewController.m */; };
+		35CB4D7116B6D4EB00472701 /* g0v.icns in Resources */ = {isa = PBXBuildFile; fileRef = 35CB4D7016B6D4EB00472701 /* g0v.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3515350A16B624BE00CCE155 /* Logbot Widget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Logbot Widget.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3515350E16B624BE00CCE155 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3515351116B624BE00CCE155 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3515351216B624BE00CCE155 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3515351316B624BE00CCE155 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3515351616B624BE00CCE155 /* Logbot Widget-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Logbot Widget-Info.plist"; sourceTree = "<group>"; };
+		3515351816B624BE00CCE155 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3515351A16B624BE00CCE155 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3515351C16B624BE00CCE155 /* Logbot Widget-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Logbot Widget-Prefix.pch"; sourceTree = "<group>"; };
+		3515351E16B624BE00CCE155 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3515352016B624BE00CCE155 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3515352116B624BE00CCE155 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3515352416B624BE00CCE155 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3515352B16B626AC00CCE155 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		3592A12816B6DE1500A515D0 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		3592A12916B6DE1500A515D0 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		35CB4D7016B6D4EB00472701 /* g0v.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = g0v.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3515350716B624BE00CCE155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3515352C16B626AC00CCE155 /* WebKit.framework in Frameworks */,
+				3515350F16B624BE00CCE155 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		351534FF16B624BE00CCE155 = {
+			isa = PBXGroup;
+			children = (
+				3515352B16B626AC00CCE155 /* WebKit.framework */,
+				3515351416B624BE00CCE155 /* Logbot Widget */,
+				3515350D16B624BE00CCE155 /* Frameworks */,
+				3515350B16B624BE00CCE155 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3515350B16B624BE00CCE155 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3515350A16B624BE00CCE155 /* Logbot Widget.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3515350D16B624BE00CCE155 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3515350E16B624BE00CCE155 /* Cocoa.framework */,
+				3515351016B624BE00CCE155 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3515351016B624BE00CCE155 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3515351116B624BE00CCE155 /* AppKit.framework */,
+				3515351216B624BE00CCE155 /* CoreData.framework */,
+				3515351316B624BE00CCE155 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3515351416B624BE00CCE155 /* Logbot Widget */ = {
+			isa = PBXGroup;
+			children = (
+				3515352016B624BE00CCE155 /* AppDelegate.h */,
+				3515352116B624BE00CCE155 /* AppDelegate.m */,
+				3515352316B624BE00CCE155 /* MainMenu.xib */,
+				3515351516B624BE00CCE155 /* Supporting Files */,
+				3592A12816B6DE1500A515D0 /* WebViewController.h */,
+				3592A12916B6DE1500A515D0 /* WebViewController.m */,
+			);
+			path = "Logbot Widget";
+			sourceTree = "<group>";
+		};
+		3515351516B624BE00CCE155 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35CB4D7016B6D4EB00472701 /* g0v.icns */,
+				3515351616B624BE00CCE155 /* Logbot Widget-Info.plist */,
+				3515351716B624BE00CCE155 /* InfoPlist.strings */,
+				3515351A16B624BE00CCE155 /* main.m */,
+				3515351C16B624BE00CCE155 /* Logbot Widget-Prefix.pch */,
+				3515351D16B624BE00CCE155 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3515350916B624BE00CCE155 /* Logbot Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3515352816B624BE00CCE155 /* Build configuration list for PBXNativeTarget "Logbot Widget" */;
+			buildPhases = (
+				3515350616B624BE00CCE155 /* Sources */,
+				3515350716B624BE00CCE155 /* Frameworks */,
+				3515350816B624BE00CCE155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Logbot Widget";
+			productName = "Logbot Widget";
+			productReference = 3515350A16B624BE00CCE155 /* Logbot Widget.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3515350116B624BE00CCE155 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 3515350416B624BE00CCE155 /* Build configuration list for PBXProject "Logbot Widget" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 351534FF16B624BE00CCE155;
+			productRefGroup = 3515350B16B624BE00CCE155 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3515350916B624BE00CCE155 /* Logbot Widget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3515350816B624BE00CCE155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3515351916B624BE00CCE155 /* InfoPlist.strings in Resources */,
+				3515351F16B624BE00CCE155 /* Credits.rtf in Resources */,
+				3515352516B624BE00CCE155 /* MainMenu.xib in Resources */,
+				35CB4D7116B6D4EB00472701 /* g0v.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3515350616B624BE00CCE155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3515351B16B624BE00CCE155 /* main.m in Sources */,
+				3515352216B624BE00CCE155 /* AppDelegate.m in Sources */,
+				3592A12A16B6DE1500A515D0 /* WebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3515351716B624BE00CCE155 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3515351816B624BE00CCE155 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3515351D16B624BE00CCE155 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3515351E16B624BE00CCE155 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3515352316B624BE00CCE155 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3515352416B624BE00CCE155 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3515352616B624BE00CCE155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3515352716B624BE00CCE155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3515352916B624BE00CCE155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Logbot Widget/Logbot Widget-Prefix.pch";
+				INFOPLIST_FILE = "Logbot Widget/Logbot Widget-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3515352A16B624BE00CCE155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Logbot Widget/Logbot Widget-Prefix.pch";
+				INFOPLIST_FILE = "Logbot Widget/Logbot Widget-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3515350416B624BE00CCE155 /* Build configuration list for PBXProject "Logbot Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3515352616B624BE00CCE155 /* Debug */,
+				3515352716B624BE00CCE155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3515352816B624BE00CCE155 /* Build configuration list for PBXNativeTarget "Logbot Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3515352916B624BE00CCE155 /* Debug */,
+				3515352A16B624BE00CCE155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3515350116B624BE00CCE155 /* Project object */;
+}
