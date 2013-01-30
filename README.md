@@ -1,6 +1,6 @@
 Logbot Widget
 =============
-Logbot Widget is a Mac client for the [Logbot](https://github.com/dannvix/Logbot) project. By default, this app is designed to connect to my Logbot deployment [http://logbot.owo.tw](http://logbot.owo.tw), and watch #g0v.tw on freenode. Currently it doesn't have a preference panel for modify those settings.
+Logbot Widget is a Mac client for the [Logbot](https://github.com/dannvix/Logbot) project. By default, this app is designed to connect to my Logbot deployment [http://logbot.owo.tw](http://logbot.owo.tw), and watch `#g0v.tw` on freenode. Currently it doesn't have a preference panel for modify those settings.
 
 
 Screenshot
