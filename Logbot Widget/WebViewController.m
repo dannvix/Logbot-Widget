@@ -15,7 +15,7 @@
 
 - (void) awakeFromNib
 {
-  NSURL *defaultURL = [NSURL URLWithString:@"http://logbot.owo.tw/widget/g0v.tw"];
+  NSURL *defaultURL = [NSURL URLWithString:@"http://logbot.g0v.tw/channel/g0v.tw"];
   NSURLRequest *urlRequest = [NSURLRequest requestWithURL:defaultURL cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:60.0];
   
   [webView setFrameLoadDelegate:self];
