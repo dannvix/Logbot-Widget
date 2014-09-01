@@ -1,17 +1,11 @@
 Logbot Widget (#g0v.tw 特仕版)
 ==============================
-Logbot Widget is a Mac client for the [Logbot](https://github.com/dannvix/Logbot) project. By default, this app is designed to connect to my Logbot deployment [http://logbot.owo.tw](http://logbot.owo.tw), and watch `#g0v.tw` on freenode. Currently it doesn't have a preference panel for modify those settings.
+Logbot Widget is a Mac client for the [Logbot](https://github.com/dannvix/Logbot) project. By default, this app is designed to connect to #g0v's Logbot deployment [http://logbot.g0v.tw](http://logbot.g0v.tw), and watch `#g0v.tw` on freenode. Currently it doesn't have a preference panel for modify those settings.
 
 
 Screenshot
 ----------
 ![Logbot Widget screnshot](https://raw.github.com/dannvix/Logbot-Widget/master/screenshot.png)
-
-
-Features
---------
-1. Incoming message notification (bounce dock icon)
-2. Unread message counts (dock icon badge label)
 
 
 License
